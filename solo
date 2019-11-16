@@ -1,0 +1,45 @@
+sv_cheats 1
+
+bind 7 "mp_free_armor 2;mp_t_default_primary weapon_ak47;mp_ct_default_primary weapon_ak47;mp_t_default_secondary weapon_deagle;mp_ct_default_secondary weapon_deagle;mp_restartgame 1"
+
+bind 8 "mp_free_armor 2;mp_t_default_primary weapon_m4a1;mp_ct_default_primary weapon_m4a1;mp_t_default_secondary weapon_deagle;mp_ct_default_secondary weapon_deagle;mp_restartgame 1"
+
+bind 9 "mp_free_armor 2;mp_t_default_primary weapon_awp;mp_ct_default_primary weapon_awp;mp_t_default_secondary weapon_deagle;mp_ct_default_secondary weapon_deagle;mp_restartgame 1"
+
+bind 0 "mp_free_armor 2;mp_t_default_primary weapon_ssg08;mp_ct_default_primary weapon_ssg08;mp_t_default_secondary weapon_usp_silencer;mp_ct_default_secondary weapon_usp_silencer;mp_restartgame 1"
+
+bind - "mp_free_armor 1;mp_t_default_primary 0;mp_ct_default_primary 0;mp_t_default_secondary weapon_usp_silencer;mp_ct_default_secondary weapon_usp_silencer;mp_restartgame 1"
+
+bind = "mp_free_armor 2;mp_t_default_primary 0;mp_t_default_primary 0;mp_t_default_secondary weapon_deagle;mp_ct_default_secondary weapon_deagle;mp_restartgame 1"
+
+exec gamemode_competitive
+mp_free_armor 2 //1.°ë¼× 2.È«¼× 0.¹Ø±Õ
+mp_humanteam any 
+mp_maxrounds 100 
+mp_roundtime 2
+bot_kick
+sv_alltalk 1
+sv_full_alltalk 1
+sv_talk_enemy_dead 1
+sv_talk_enemy_living 1
+mp_freezetime "1"
+mp_round_restart_delay 2
+mp_autoteambalance 0
+mp_buytime "99999"
+mp_buy_anywhere 1
+mp_startmoney 16000
+mp_drop_knife_enable 1
+mp_limitteams 0
+mp_autoteambalance 0
+mp_autokick 0
+mp_spectators_max 9
+mp_forcecamera 0
+mp_respawn_immunitytime 0	
+mp_respawn_on_death_ct 0
+mp_respawn_on_death_t  0 
+mp_warmup_end
+mp_restartgame 1
+mp_t_default_primary weapon_ak47
+mp_ct_default_primary weapon_ak47
+mp_t_default_secondary weapon_deagle
+mp_ct_default_secondary weapon_deagle
