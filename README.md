@@ -1,4 +1,4 @@
-# cfg
+# auto
 net_graph 1
 
 net_graphpos 2
