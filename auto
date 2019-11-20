@@ -6,7 +6,7 @@ cl_righthand 0
 cl_teamid_overhead_mode 2
 mat_monitorgamma 1.8
 ui_steam_overlay_notification_position "bottomright"
-sensitivity 1.200000000000000000
+sensitivity 1.15000000000000
 zoom_sensitivity_ratio_mouse 0.818933027098955175
 m_rawinput 1
 m_customaccel 0
@@ -36,7 +36,7 @@ cl_crosshairsize "3.5"
 cl_crosshairthickness "1.5"
 cl_crosshairusealpha "1"
 cl_crosshaircolor "4"
-cl_crosshairgap "-1"
+cl_crosshairgap "-3"
 cl_crosshairstyle "4"
 snd_mixahead 0.05
 volume 0.7
