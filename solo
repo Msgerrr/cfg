@@ -12,8 +12,9 @@ bind - "mp_free_armor 1;mp_t_default_primary 0;mp_ct_default_primary 0;mp_t_defa
 
 bind = "mp_free_armor 2;mp_t_default_primary 0;mp_t_default_primary 0;mp_t_default_secondary weapon_deagle;mp_ct_default_secondary weapon_deagle;mp_restartgame 1"
 
+bind / "mp_restartgame 1"
 exec gamemode_competitive
-mp_free_armor 2 //1.°ë¼× 2.È«¼× 0.¹Ø±Õ
+mp_free_armor 2 //1.半甲 2.全甲 0.关闭
 mp_humanteam any 
 mp_maxrounds 100 
 mp_roundtime 2
