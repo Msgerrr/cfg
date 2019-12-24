@@ -20,7 +20,6 @@ ammo_grenade_limit_total 5
 bot_stop 1
 mp_spectators_max 9
 mp_drop_knife_enable 1
-bind "j" "sv_rethrow_last_grenade"
 bind "n" "noclip"
 bind "l" "bot_mimic 2"
 bind "k" "bot_mimic 1"
@@ -30,4 +29,7 @@ bind p "bot_stop 1;bot_place"
 bind / "mp_restartgame 1"
 bind , "bot_add"
 bind . "bot_kick"
+cl_grenadepreview 1
+bind "h" "sv_rethrow_last_grenade"
+bind "j" "cl_sim_grenade_trajectory 10"
 mp_restartgame 1
