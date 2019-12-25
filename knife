@@ -1,5 +1,9 @@
 sv_cheats 1
 mp_drop_knife_enable 1
+give weapon_knife_outdoor
+give weapon_knife_skeleton
+give weapon_knife_canis
+give weapon_knife_cord
 give weapon_bayonet
 give weapon_knife_flip
 give weapon_knife_gut
