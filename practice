@@ -1,35 +1,50 @@
-bot_kick
+exec gamemode_competitive
 sv_cheats 1
+sv_alltalk 1
+sv_full_alltalk 1
+sv_talk_enemy_dead 1
+sv_talk_enemy_living 1
+sv_infinite_ammo 1
+sv_grenade_trajectory 1
+sv_enablebunnyhopping 1
+sv_autobunnyhopping 1
+cl_grenadepreview 1
+ammo_grenade_limit_total 5
+bot_kick
+bot_stop 1
+bot_mimic_yaw_offset 0
+bind n "noclip"
+bind p "bot_stop 1;bot_place"
+bind h "sv_rethrow_last_grenade"
+bind j "cl_sim_grenade_trajectory 10"
+bind k "incrementvar bot_mimic 1 2 1"
+bind l "incrementvar bot_crouch 0 1 1"
+bind / "mp_restartgame 1"
+bind , "bot_kick"
+bind . "bot_add"
+bind "F7" "incrementvar mp_free_armor 0 2 -1;mp_restartgame 1"
+mp_free_armor 2
 mp_freezetime 0
 mp_warmup_end
 mp_roundtime 60
 mp_roundtime_defuse 999
+mp_round_restart_delay 2
 mp_buy_anywhere 1
-mp_maxmoney 16000 
+mp_maxmoney 16000
 mp_startmoney 16000
-mp_buy_allow_grenades 1						
-sv_alltalk 1
-sv_infinite_ammo 1
-sv_grenade_trajectory 1
-give weapon_ak47
+mp_buy_allow_grenades 1
 mp_buytime 9999
 mp_maxrounds 99
 mp_limitteams 0
 mp_autoteambalance 0
-ammo_grenade_limit_total 5
-bot_stop 1
 mp_spectators_max 9
 mp_drop_knife_enable 1
-bind "n" "noclip"
-bind "l" "bot_mimic 2"
-bind "k" "bot_mimic 1"
-bot_mimic_yaw_offset 0
-mp_humanteam any 
-bind p "bot_stop 1;bot_place"
-bind / "mp_restartgame 1"
-bind , "bot_add"
-bind . "bot_kick"
-cl_grenadepreview 1
-bind "h" "sv_rethrow_last_grenade"
-bind "j" "cl_sim_grenade_trajectory 10"
+mp_humanteam any
 mp_restartgame 1
+mp_t_default_primary weapon_ak47
+mp_ct_default_primary weapon_ak47
+mp_t_default_secondary weapon_deagle
+mp_ct_default_secondary weapon_deagle
+mp_t_default_grenades "weapon_flashbang weapon_hegrenade weapon_smokegrenade weapon_molotov"
+mp_ct_default_grenades "weapon_flashbang weapon_hegrenade weapon_smokegrenade weapon_incgrenade"
+
